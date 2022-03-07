@@ -14,7 +14,7 @@ body {
   padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
   flex: 25%;
   max-width: 25%;
@@ -27,7 +27,7 @@ body {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -35,7 +35,7 @@ body {
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
@@ -43,3 +43,24 @@ body {
   }
 }
 /* GALERİ KISMI BİTİŞ */
+
+.btn-group {
+   border: 2px ;
+   padding: 20px;
+   text-align: left;
+ 
+}
+
+
+footer {
+  padding: 50px;
+  background-color: rgb(5, 5, 48);
+  color: white;
+}
+
+select {
+  width: 10;
+  background-color: rgb(97, 96, 96);
+  color: white;
+  margin-bottom: 10px;
+}
