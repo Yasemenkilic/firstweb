@@ -59,11 +59,12 @@ body {
 
 .flex-container > div {
   
-  width: 100px;
+  width: 150px;
   margin: 10px;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  font-size: 40px;
+  padding: 10px;
 }
 
 footer {
@@ -84,3 +85,4 @@ select {
   width: 400px;
   color: white;
 }
+
