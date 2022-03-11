@@ -5,7 +5,10 @@ body {
   margin: 0px;
   padding: 0px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+  background-image: url('dizi/backgraund.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed; ;
   }
 
 nav .container-md {
@@ -75,6 +78,7 @@ header {
   list-style: none;
   text-decoration: none;
   float:none;
+  
 }
 
 .container{
@@ -139,6 +143,44 @@ margin-right: auto ;
   float: right;
 }
 
+/* CARD LİST */
+.black{
+  margin: 100px;
+}
+.black .card img{
+  border: 5px solid #fafafa;
+  border-radius: 8px;
+  border-style: ridge;
+  cursor: pointer;
+  user-select: none;
+}
+/* .black .card img:hover{
+  background:#979799;
+  transition: .5s;
+} */
+
+
+
+
+
+
+
+
+
+
+/* .black2{
+  margin: 100px;
+  margin-top: 50px;
+}
+.black2 .card img{
+  border: 5px solid #fafafa;
+  border-radius: 8px;
+  border-style: ridge;
+} */
+
+
+
+
 /* SLİDER GİRİŞ -BOZUKKKK 
 .slider{
   position:relative;
@@ -147,7 +189,16 @@ margin-right: auto ;
   border: 2px solid #9c9797;
   margin: auto;
   overflow: hidden;
-
+  justify-content: center;
+}
+#main{
+  position:relative;
+  width: 200px;
+  height: 250px;
+  border: 2px solid #9c9797;
+  margin: auto;
+  overflow: hidden;
+  justify-content: center;
 }
 .slider-content {
   position: absolute;
@@ -155,7 +206,7 @@ margin-right: auto ;
   animation: slide 20s infinite;
 }
 .slider-item{
-  width: 6%;
+  width: 8%;
   float: left;
 }
 .slider .slider-content .slider-item img {
@@ -194,8 +245,8 @@ margin-right: auto ;
     transform: translateX(0px);
   }
 
-}
-BİTİŞ BOZUK SLİDER */
+} */
+
 
 /* İKONLAR İNŞ */
 @font-face {
